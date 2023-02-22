@@ -12,6 +12,9 @@ from googleapiclient.errors import HttpError
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/drive.metadata']
 
+# The credentials.json file was created by going through the process
+# outlined here: https://github.com/glotlabs/gdrive/blob/main/docs/create_google_api_credentials.md
+
 def auth():
     """Gets credentials to use with the client.
     """
